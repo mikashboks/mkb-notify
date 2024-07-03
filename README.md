@@ -8,8 +8,7 @@ Simplified notification construction for Android.
 [![AndroidX](https://img.shields.io/badge/AndroidX-1.0-6ab344.svg?style=flat-square)](https://developer.android.com/jetpack/androidx/)
 [![Build Status](https://img.shields.io/travis/Karn/notify.svg?style=flat-square)](https://travis-ci.org/Karn/notify)
 [![Codecov](https://img.shields.io/codecov/c/github/karn/notify.svg?style=flat-square)](https://codecov.io/gh/Karn/notify)
-[![GitHub (pre-)release](https://img.shields.io/github/release/karn/notify/all.svg?style=flat-square)
-](./../../releases)
+[![GitHub (pre-)release](https://img.shields.io/github/v/release/mikashboks/mkb-notify.svg?include_prereleases&style=flat-square)](./../../releases)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FKarn%2Fnotify.svg?type=small)](https://app.fossa.io/projects/git%2Bgithub.com%2FKarn%2Fnotify?ref=badge_small)
 
 Notify is a Fluent API for Android notifications which lets you build notifications without worrying how they'll look across devices or API versions. You can bring deterministic notifications to your Android projects with clarity & ease so you can finally stop fighting Developer documentation and get back to dev work that really matters.
@@ -30,7 +29,7 @@ repositories {
 // Module level build.gradle
 dependencies {
     // Replace version with release version, e.g. 1.0.0-alpha, -SNAPSHOT
-    implementation "io.karn:notify:[VERSION]"
+    implementation "com.github.mikashboks:mkb-notify:[VERSION]"
 }
 ```
 
